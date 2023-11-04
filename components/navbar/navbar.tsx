@@ -3,7 +3,7 @@ import Link from "next/link";
 import Container from "@/components/ui/container";
 import MainNav from "@/components/navbar/main-nav";
 import getCategories from "@/actions/get-categories";
-import NavbarAction from "@/actions/navbar-actions";
+import NavbarAction from "@/components/navbar/navbar-actions";
 
 export const revalidate = 0;
 
