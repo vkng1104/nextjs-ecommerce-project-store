@@ -2,8 +2,15 @@
 
 import Button from "@/components/ui/button";
 import { ShoppingBag } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const NavbarAction = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => setIsMounted(true), []);
+
+  if (!isMounted) return null;
+
   return (
     <div className="ml-auto flex items-center gap-x-4">
       <Button className="flex items-center">
