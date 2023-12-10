@@ -4,7 +4,7 @@ This is a full-stack e-commerce platform built with Next.js, React, Tailwind CSS
 
 ## Deployment
 
-[Click here to view the user site](https://nextjs-ecommerce-project-admin-phzmbdhyf-vkng1104s-projects.vercel.app/)
+[Click here to view the user site](https://nextjs-ecommerce-project-store.vercel.app/)
 
 ## Features
 
